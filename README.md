@@ -12,7 +12,6 @@
 * 🎯 Create custom aliases
 * ⏳ Set link expiration
 * 🔐 Password-protected links
-* 🌐 Public and private links
 * 📊 Click analytics with browser, device, OS and referrer data
 * 📈 7-day click statistics
 * 📷 QR code generation
