@@ -2,6 +2,11 @@
 
 > Shorten, track and manage your links like a pro.
 
+## 🔗 Links
+
+- 🚀 [Live Demo](https://link-snap-tawny.vercel.app/)
+- 💻 [Source Code](https://github.com/Arnav-Bansal2710/LinkSnap)
+
 ## ✨ Features
 
 ### 🔗 Core
@@ -318,26 +323,12 @@ This ensures redirects are **never slowed down** by analytics tracking.
 
 ---
 
-## 🌙 Dark Mode
-
-Dark mode uses Tailwind's `dark:` variant with a class-based strategy:
-
-```javascript
-// ThemeContext adds/removes 'dark' class on <html>
-document.documentElement.classList.toggle('dark', isDark);
-
-// Persisted in localStorage
-localStorage.setItem('theme', 'dark' | 'light');
-```
-
----
-
 ## 🚢 Deployment
 
 | Service | Platform | URL |
 |---|---|---|
-| Frontend | Vercel | https://your-app.vercel.app |
-| Backend | Render | https://your-api.onrender.com |
+| Frontend | Vercel | [Live Demo](https://link-snap-tawny.vercel.app/) |
+| Backend | Render | Deployed on Render |
 | Database | PlanetScale | Managed MySQL |
 
 ### Environment Variables — Production
@@ -356,8 +347,8 @@ NODE_ENV       = production
 
 **Vercel (Frontend):**
 ```
-VITE_API_URL  = https://your-api.onrender.com/api
-VITE_BASE_URL = https://your-api.onrender.com
+VITE_API_URL  = <your Render API URL>/api
+VITE_BASE_URL = <your Render API URL>
 ```
 
 ---
